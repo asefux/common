@@ -44,5 +44,9 @@ isUuid(aTimeuuid, 1) ? console.log('is uuid of version 1') : console.log('is not
 <tr>
 <td>1.2.0</td><td>Ramda export as R, object.flatten/object.unflatten</td>
 </tr>
+<tr>
+<td>1.2.1</td><td>readme & license update</td>
+</tr>
+
 </tbody>
 </table>
