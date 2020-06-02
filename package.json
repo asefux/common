@@ -1,7 +1,12 @@
 {
   "name": "@asefux/common",
-  "version": "1.2.1",
-  "description": "`npm install --save @asefux/common`",
+  "version": "1.2.2",
+  "description": "asefux commons",
+  "homepage": "https://github.com/asefux/common#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/asefux/common.git"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

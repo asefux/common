@@ -47,6 +47,8 @@ isUuid(aTimeuuid, 1) ? console.log('is uuid of version 1') : console.log('is not
 <tr>
 <td>1.2.1</td><td>readme & license update</td>
 </tr>
-
+<tr>
+<td>1.2.2</td><td>cosmetics</td>
+</tr>
 </tbody>
 </table>
