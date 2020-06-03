@@ -12,7 +12,7 @@ module.exports = {
   isUuid, // check if a string is a valid uuid format of specified version. default version is 4
   R, // ramda library
   object: { flatten, unflatten } // flattens object to single level, unflattens single level object
-  string: { compile } // compiles a string from template
+  string: { compile, toSymbolKey } // compiles a string from template
 };
 ```
 
@@ -59,6 +59,15 @@ console.log(aString); // will output: Hello World
 </tr>
 <tr>
 <td>1.3.0</td><td>simple string template</td>
+</tr>
+<tr>
+<td>1.4.0-a1</td><td>
+
+<ul>
+<li>string.toSymbolKey(v)</li>
+</ul>
+
+</td>
 </tr>
 </tbody>
 </table>
