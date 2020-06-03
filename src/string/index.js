@@ -10,7 +10,7 @@ const compileString = ({ template, info }) => {
 
 const toSymbolKey = (rawValue) => {
   const value = (rawValue && rawValue.toString()) ? rawValue.toString() : 'NIL';
-  return value.toUpperCase().replace(/[^a-zA-Z0-9]*/, '');
+  return value.toUpperCase().split(/[^a-zA-Z0-9]{1,}/i).filter((x) => x && x.length >= 1).join('-');
 };
 
 module.exports = {
