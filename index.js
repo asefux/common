@@ -4,7 +4,7 @@ const BN = require('bignumber.js');
 const R = require('ramda');
 
 const object = require('./src/object');
-
+const string = require('./src/string');
 
 const bn = (x) => new BN(x);
 
@@ -30,4 +30,5 @@ module.exports = {
   isUuid,
   R,
   object,
+  string,
 };
